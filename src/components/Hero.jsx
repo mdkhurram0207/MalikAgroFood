@@ -1,9 +1,6 @@
 export default function Hero() {
   return (
-    <section
-      id="home"
-      className="relative min-h-[70vh] sm:min-h-[80vh] pt-20 sm:pt-24"
-    >
+  <section id="home" className="relative min-h-[70vh] sm:min-h-[80vh] pt-20 sm:pt-24">
       <div
         className="absolute inset-0 bg-cover bg-center"
         style={{ backgroundImage: 'url(/images/hero_image.jpg)' }}
@@ -18,19 +15,12 @@ export default function Hero() {
             <p className="mt-4 sm:mt-6 text-base sm:text-lg text-white/90 leading-relaxed">
               We bring you the finest grains—aromatic, nutritious, and processed with care.
             </p>
-
+            
             <div className="mt-8 grid grid-cols-1 sm:flex sm:flex-row sm:justify-start gap-3">
-              {/* Fixed buttons to scroll to sections */}
-              <a
-                href="#products"
-                className="w-full sm:w-auto inline-flex items-center justify-center rounded-md px-6 py-3 text-white font-medium bg-gradient-to-r from-emerald-700 to-emerald-500 hover:from-emerald-600 hover:to-emerald-400 transition-all duration-200 hover:-translate-y-0.5 hover:shadow-lg"
-              >
+              <a href="/products" className="w-full sm:w-auto inline-flex items-center justify-center rounded-md px-6 py-3 text-white font-medium bg-gradient-to-r from-emerald-700 to-emerald-500 hover:from-emerald-600 hover:to-emerald-400 transition-all duration-200 hover:-translate-y-0.5 hover:shadow-lg">
                 Explore Products
               </a>
-              <a
-                href="#contact"
-                className="w-full sm:w-auto inline-flex items-center justify-center rounded-md px-6 py-3 text-white font-medium bg-gradient-to-r from-blue-600 to-blue-400 hover:from-blue-500 hover:to-blue-300 transition-all duration-200 hover:-translate-y-0.5 hover:shadow-lg"
-              >
+              <a href="/contact" className="w-full sm:w-auto inline-flex items-center justify-center rounded-md px-6 py-3 text-white font-medium bg-gradient-to-r from-blue-600 to-blue-400 hover:from-blue-500 hover:to-blue-300 transition-all duration-200 hover:-translate-y-0.5 hover:shadow-lg">
                 Contact Us
               </a>
             </div>
@@ -40,3 +30,5 @@ export default function Hero() {
     </section>
   );
 }
+
+
