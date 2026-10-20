@@ -78,6 +78,17 @@ export default function Contact() {
           </Reveal>
         </div>
 
+        <Reveal>
+          <div className="mt-10 rounded-2xl border border-emerald-200 bg-white p-6 text-center shadow-sm sm:p-8">
+            <h2 className="text-2xl font-semibold text-emerald-900">Additional Place of Business</h2>
+            <p className="mt-2 text-sm text-slate-500">Authorised Premises</p>
+            <address className="mt-4 not-italic text-base font-medium text-slate-800 sm:text-lg">
+              Khasra No./Plot No. 343, Village Manjoor Garhi, Tehsil Koil,<br className="hidden sm:block" />
+              Aligarh, Uttar Pradesh – 202122
+            </address>
+          </div>
+        </Reveal>
+
         {/* Quick contact CTA */}
         <div className="mt-10 bg-white rounded-2xl p-8 shadow-sm border border-emerald-100 text-center">
           <div className="max-w-3xl mx-auto">
