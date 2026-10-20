@@ -29,7 +29,7 @@ export default function Contact() {
                 </address>
               </div>
               <div className="mt-4">
-                <div className="text-sm text-slate-500">Additional Address</div>
+                <div className="text-sm text-slate-500">Additional Place of Business</div>
                 <address className="not-italic text-slate-800">
                   Khasra No./Plot No. 343, Village Manjoor Garhi,<br />
                   Tehsil Koil, Aligarh, Uttar Pradesh – 202122
