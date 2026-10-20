@@ -22,11 +22,10 @@ export default function Contact() {
               <h3 className="text-lg font-semibold text-emerald-900 flex items-center gap-2">Company</h3>
               <p className="mt-2 text-slate-800">MALIK AGRO FOOD INDUSTRIES PRIVATE LIMITED</p>
               <div className="mt-4">
-                <div className="text-sm text-slate-500">Address</div>
+                <div className="text-sm text-slate-500">Registered Office</div>
                 <address className="not-italic text-slate-800">
-                  FLAT NO. 19-B, GULISTAN H. COM A.S.,<br />
-                  Aligarh, District: Aligarh, Uttar Pradesh,<br />
-                  PIN: 202001
+                  Flat No. 19-B, Gulistan H. Com, A.S. Road,<br />
+                  Aligarh, Uttar Pradesh – 202001
                 </address>
               </div>
             </div>
