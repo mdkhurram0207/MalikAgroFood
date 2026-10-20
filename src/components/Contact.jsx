@@ -22,10 +22,17 @@ export default function Contact() {
               <h3 className="text-lg font-semibold text-emerald-900 flex items-center gap-2">Company</h3>
               <p className="mt-2 text-slate-800">MALIK AGRO FOOD INDUSTRIES PRIVATE LIMITED</p>
               <div className="mt-4">
-                <div className="text-sm text-slate-500">Registered Office</div>
+                <div className="text-sm text-slate-500">Address</div>
                 <address className="not-italic text-slate-800">
                   Flat No. 19-B, Gulistan H. Com, A.S. Road,<br />
                   Aligarh, Uttar Pradesh – 202001
+                </address>
+              </div>
+              <div className="mt-4">
+                <div className="text-sm text-slate-500">Additional Address</div>
+                <address className="not-italic text-slate-800">
+                  Khasra No./Plot No. 343, Village Manjoor Garhi,<br />
+                  Tehsil Koil, Aligarh, Uttar Pradesh – 202122
                 </address>
               </div>
             </div>
@@ -77,17 +84,6 @@ export default function Contact() {
             </div>
           </Reveal>
         </div>
-
-        <Reveal>
-          <div className="mt-10 rounded-2xl border border-emerald-200 bg-white p-6 text-center shadow-sm sm:p-8">
-            <h2 className="text-2xl font-semibold text-emerald-900">Additional Place of Business</h2>
-            <p className="mt-2 text-sm text-slate-500">Authorised Premises</p>
-            <address className="mt-4 not-italic text-base font-medium text-slate-800 sm:text-lg">
-              Khasra No./Plot No. 343, Village Manjoor Garhi, Tehsil Koil,<br className="hidden sm:block" />
-              Aligarh, Uttar Pradesh – 202122
-            </address>
-          </div>
-        </Reveal>
 
         {/* Quick contact CTA */}
         <div className="mt-10 bg-white rounded-2xl p-8 shadow-sm border border-emerald-100 text-center">
