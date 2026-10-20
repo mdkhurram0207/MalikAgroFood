@@ -39,7 +39,7 @@ export default function Footer() {
               </a>
             </li>
             <li className="text-slate-400 mt-2 text-sm md:text-base">
-              FLAT NO. 19-B, GULISTAN H. COM A.S., Aligarh, UP – 202001
+              Flat No. 19-B, Gulistan H. Com, A.S. Road, Aligarh, Uttar Pradesh – 202001
             </li>
           </ul>
         </div>
