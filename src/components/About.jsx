@@ -94,6 +94,20 @@ export default function About() {
           </div>
         </Reveal>
 
+        {/* Additional place of business */}
+        <Reveal>
+          <div className="mx-auto max-w-4xl rounded-2xl border border-emerald-200 bg-white p-6 text-center shadow-md sm:p-8">
+            <SectionHeader
+              title="Additional Place of Business"
+              subtitle="Authorised Premises"
+            />
+            <address className="mt-5 not-italic text-base font-medium text-slate-700 sm:text-lg">
+              Khasra No./Plot No. 343, Village Manjoor Garhi, Tehsil Koil,<br className="hidden sm:block" />
+              Aligarh, Uttar Pradesh – 202122
+            </address>
+          </div>
+        </Reveal>
+
         {/* Our Core Values */}
         <Reveal>
           <div className="text-center">
